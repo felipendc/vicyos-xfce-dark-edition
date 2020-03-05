@@ -1,0 +1,5 @@
+FileManager=Thunar
+TerminalEmulator=urxvt
+MailReader=evolution
+
+WebBrowser=chromium

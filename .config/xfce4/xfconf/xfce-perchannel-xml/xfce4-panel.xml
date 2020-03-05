@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="background-alpha" type="uint" value="76"/>
+      <property name="length" type="uint" value="8"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="1"/>
+        <value type="int" value="4"/>
+        <value type="int" value="2"/>
+        <value type="int" value="8"/>
+      </property>
+      <property name="position" type="string" value="p=5;x=13;y=167"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="25"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="systray">
+      <property name="names-ordered" type="array">
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="stacer"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="notification-plugin"/>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="rows" type="uint" value="2"/>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance104331;chromium.instance11382;chromium.instance11978;chromium.instance1460;chromium.instance1482;chromium.instance1555;chromium.instance1559;chromium.instance1587;chromium.instance1591;chromium.instance1596;chromium.instance1666;chromium.instance1725;chromium.instance1758;chromium.instance1838;chromium.instance1880;chromium.instance1891;chromium.instance1960;chromium.instance2042;chromium.instance2349;chromium.instance24107;chromium.instance2465;chromium.instance3870;chromium.instance41459;chromium.instance43059;chromium.instance5248;chromium.instance5437;chromium.instance5971;chromium.instance6410;chromium.instance7186;chromium.instance7750;chromium.instance8975;pragha;spotify;strawberry;vlc;vlc.instance38060"/>
+    </property>
+  </property>
+</channel>
