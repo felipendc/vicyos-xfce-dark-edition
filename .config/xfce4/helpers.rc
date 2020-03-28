@@ -2,4 +2,4 @@ FileManager=Thunar
 TerminalEmulator=urxvt
 MailReader=evolution
 
-WebBrowser=chromium
+WebBrowser=/opt/google/chrome/google-chrome
